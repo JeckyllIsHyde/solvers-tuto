@@ -42,3 +42,13 @@ saxpy( s, alpha, v1, spc1 , v2, spc2 )
 daxpy( s, alpha, v1, spc1 , v2, spc2 )
 zaxpy( s, alpha, v1, spc1 , v2, spc2 )
 ```
+
+   **Find the index i of the max element:** `v1[i]` is one of the higher values of `v1`
+   
+   `i = argmax_i(v1);`
+    
+```fortran
+isamax( s, v1, spc1 )
+idamax( s, v1, spc1 )
+izamax( s, v1, spc1 )
+```
