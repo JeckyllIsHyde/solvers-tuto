@@ -21,6 +21,8 @@ zcopy( s, v1, spc1, v2, spc2 )
 
    **Scale one vector:** `v1` by `alpha` of size `s`
    
+    <img src="https://latex.codecogs.com/gif.latex?O_t=\text { Onset event at time bin } t " />
+    
 ```fortran
 sscal( s, alpha, v1, spc1 )
 dscal( s, alpha, v1, spc1 )
