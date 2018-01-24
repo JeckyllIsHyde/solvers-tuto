@@ -1,4 +1,4 @@
-# intro to BLAS
+# Intro to BLAS
 
 ## HowTo with blas level 1 
 
