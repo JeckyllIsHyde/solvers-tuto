@@ -44,14 +44,14 @@ void printVector(int n, REALT  *v,        /* Size and array                 */
    lidel/ridel.  The matrix will be delimited by ldel/rdel.  Each number, and left delimiter will be followed by the pad string.
    The first line of the matrix will have the tag string printed at the start of the line, and all remaining lines will have spaces
    printed to align the rest of the matrix past the tag. */
-//void printMatrix(const enum CBLAS_ORDER order, 
- //                int n, int m, REALT  *a,  /* Size and array                 */
-  //               int wide, int prec,       /* Width and precesion for floats */
-   //              char *pad,                /* Right pad string               */
-    //             char *ldel, char *rdel,   /* Left and right delimiter       */
-    //             char *lidel, char *ridel, /* Left and right INNER delimiter */
-    //             char *tag                 /* Tag for first line             */
-  //);
+void printMatrix(const /*enum*/ CBLAS_ORDER order, 
+                 int n, int m, REALT  *a,  /* Size and array                 */
+                 int wide, int prec,       /* Width and precesion for floats */
+                 char *pad,                /* Right pad string               */
+                 char *ldel, char *rdel,   /* Left and right delimiter       */
+                 char *lidel, char *ridel, /* Left and right INNER delimiter */
+                 char *tag                 /* Tag for first line             */
+  );
 
 /* ****************************************************************************************************************************** */
 /* Returns the number of elements it found.  Sets n and m to the size of the matrix. */

@@ -45,9 +45,9 @@ void printVector(int n, REALT  *v, int wide, int prec, char *pad, char *ldel, ch
 } /* end func printVector */
 
 /* ****************************************************************************************************************************** */
-//void printMatrix(const enum CBLAS_ORDER order, int n, int m, REALT  *a, int wide, int prec, char *pad, char *ldel, char *rdel, char *lidel, char *ridel, char *tag) {
-//  printMatrixUbr(order, n, m, a, NULL, NULL, 0.0, 0.0, wide, prec, NULL, NULL, 'V', NULL, '0', NULL, pad, ldel, rdel, lidel, ridel, tag);
-//} /* end func printMatrix */
+void printMatrix(const /*enum*/ CBLAS_ORDER order, int n, int m, REALT  *a, int wide, int prec, char *pad, char *ldel, char *rdel, char *lidel, char *ridel, char *tag) {
+  printMatrixUbr(order, n, m, a, NULL, NULL, 0.0, 0.0, wide, prec, NULL, NULL, 'V', NULL, '0', NULL, pad, ldel, rdel, lidel, ridel, tag);
+} /* end func printMatrix */
 
 /* ****************************************************************************************************************************** */
 //void printMatrixThr(const enum CBLAS_ORDER order, int n, int m, REALT  *a, char *inStr, char *outStr, REALT  minIn, REALT  maxIn, char *pad, char *ldel, char *rdel, char *lidel, char *ridel, char *tag) {
