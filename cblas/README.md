@@ -52,3 +52,23 @@ isamax( s, v1, spc1 )
 idamax( s, v1, spc1 )
 izamax( s, v1, spc1 )
 ```
+
+   **norm 2:** `|v1|` norm-2
+   
+   `|v1|_2 = norm2(v1);`
+    
+```fortran
+snrm2( s, v1, spc1 )
+dnrm2( s, v1, spc1 )
+znrm2( s, v1, spc1 )
+```
+
+   **norm sum:** `|v1|` norm-1
+   
+   `|v1|_1 = norm1(v1);`
+    
+```fortran
+sasum( s, v1, spc1 )
+dasum( s, v1, spc1 )
+zasum( s, v1, spc1 )
+```
